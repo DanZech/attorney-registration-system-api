@@ -14,7 +14,8 @@ SECRET_KEY = 'django-insecure-j%c3w!(i5^(_f_&^%$+(+naq2&-04ky3(#fqm!4imcdo*n^84x
 DEBUG = True
 
 ALLOWED_HOSTS=['*']
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = ['https://attorney-registration-system.vercel.app/']
 CSRF_TRUSTED_ORIGINS = ['https://attorney-registration-system.vercel.app/']
 
 # Application definition

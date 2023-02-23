@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-y7j(2jwm8us@x=1v68-l-=h7-m3l&3-g%la57u4rg-7_cnyn8t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS=['*']
+CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = ['https://attorney-registration-system.vercel.app/']
 
 # Application definition
 
